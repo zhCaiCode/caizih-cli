@@ -1,0 +1,35 @@
+{
+  "name": "czh-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "czh": "index.js"
+  },
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "react",
+    "CLI",
+    "component"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "发布的git地址",
+  "repository": {
+    "type": "git",
+    "url": "发布的git地址"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "ejs": "^3.1.5",
+    "open": "^7.3.0"
+  },
+  "devDependencies": {
+    "commander": "^13.1.0",
+    "download-git-repo": "^3.0.2"
+  }
+}

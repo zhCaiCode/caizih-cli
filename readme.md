@@ -1,0 +1,7 @@
+<!--
+ Copyright (c) 2025 caizih
+ 
+ This software is released under the MIT License.
+ https://opensource.org/licenses/MIT
+-->
+
