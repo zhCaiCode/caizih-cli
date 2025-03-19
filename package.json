@@ -1,13 +1,13 @@
 {
   "name": "caizih-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "index.js",
   "bin":{
     "czh":"index.js"
   },
   "scripts": {
-    "publish":"publish --access public",
+    "publish":"npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
