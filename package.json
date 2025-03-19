@@ -1,12 +1,13 @@
 {
   "name": "caizih-cli",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "",
   "main": "index.js",
   "bin":{
     "czh":"index.js"
   },
   "scripts": {
+    "publish":"publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -25,13 +26,13 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
-    "open": "^7.3.0"
+    "open": "^7.3.0",
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.5"
   },
   "devDependencies": {
-    "commander": "^13.1.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "download-git-repo": "^3.0.2",
-    "ejs": "^3.1.10"
+    "cz-conventional-changelog": "^3.3.0"
   },
   "config": {
     "commitizen": {
