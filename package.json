@@ -1,27 +1,24 @@
 {
-  "name": "czh-cli",
-  "version": "1.0.0",
+  "name": "caizih-cli",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "bin": {
-    "czh": "index.js"
-  },
   "scripts": {
-    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "vue",
+    "vue3",
     "react",
     "CLI",
     "component"
   ],
-  "author": "",
+  "author": "caizih",
   "license": "MIT",
-  "homepage": "发布的git地址",
+  "homepage": "https://github.com/zhCaiCode/czh-cli.git",
   "repository": {
     "type": "git",
-    "url": "发布的git地址"
+    "url": "https://github.com/zhCaiCode/czh-cli.git"
   },
   "dependencies": {
     "chalk": "^4.1.0",

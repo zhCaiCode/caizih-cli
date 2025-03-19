@@ -1,8 +1,16 @@
 #!/usr/bin/env node
 const cmd = reuqire('commander')
-// 定义版本号
-cmd.version(reuqire('./package.json').version)
-// 解析终端指令
-cmd.parse(process.argv);
 
-console.log('hello')
+const createCommands = require('./lib/core/create')
+const helpOptions = require('./lib/core/help')
+// Define the module's version number
+cmd.version(reuqire('./package.json').version)
+
+// Add additional options to the help command
+helpOptions()
+
+// Create commands
+createCommands()
+
+// Parse terminal commands
+cmd.parse(process.argv);
